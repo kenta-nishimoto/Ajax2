@@ -28,6 +28,5 @@ class PostsController < ApplicationController
     
     render json: {post:item}
     # ↪︎itemの情報をJSOn形式で「checked.js」に渡している
-
-
+  end
 end
